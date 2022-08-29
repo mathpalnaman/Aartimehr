@@ -1,0 +1,13 @@
+
+
+
+
+#include<iostream>
+
+int main() {
+    int a,b,c;
+    std::"enter the numbers";
+    
+    
+    return 0;
+} 
