@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+char Name;
+cout<<"Enter the name""\n";
+cin>>Name;
+cout<<"The name is "<<Name<<"\n";
+return 0;
+}
