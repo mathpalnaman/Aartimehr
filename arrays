@@ -1,0 +1,21 @@
+    
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int i;
+    cin>>i;
+    int A[i];
+    for(int n=0;n<i;n++)
+    {
+    cin>>A[n];
+    }
+    int sum=0;
+    for(int n=0;n<i;n++){
+        sum=sum+A[n];
+        cout<<"n"<<"A[n]"<<A[n]<<"sum"<<sum<<endl;
+    }
+    cout<<"total sum"<<sum;
+    
+    return 0;
+}
