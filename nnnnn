@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int i;
+    cin>>i;
+    int A[i];
+    for(int n=0;n<i;n++)
+        
+    {
+    cin>>A[n];
+    }
+    int max=A[0];
+    for(int n=0;n<i;n++){
+        if(A[n]>max)
+        {max=A[n];}
+    
+        cout<<"n"<<"A[n]"<<A[n]<<"max"<<max<<endl;
+    }
+    cout<<"max"<<max;
+    
+    return 0;
+}
